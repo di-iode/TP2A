@@ -15,7 +15,7 @@ public abstract class Document {
 	}
 	
 	public String toString(){
-		return "\t"+this.titre+" est le””";
+		return "\t"+this.titre+" est le "+ this.numEnreg + " document crée";
 	}
 }
 
