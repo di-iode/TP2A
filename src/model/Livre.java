@@ -14,4 +14,6 @@ public class Livre extends Document{
 	
 	@Override
 	public string toString(){
+		return super() + " c'est un livre de " + Livre.auteur + " de "+ Livre.nbPages+" page"
+	}
 }
