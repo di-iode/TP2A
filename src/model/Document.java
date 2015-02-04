@@ -26,7 +26,13 @@ public abstract class Document {
 		this.titre = titre;
 	}
 	
-	ge
+	public static int getNbr() {
+		return nbr;
+	}
+	public String getTitre() {
+		return titre;
+	}
+	
 	
 }
 

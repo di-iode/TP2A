@@ -12,5 +12,6 @@ public class Livre extends Document{
 		this.nbPages=nbPages;
 	}
 	
-	public String auteur
+	@Override
+	public string toString(){
 }
