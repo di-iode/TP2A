@@ -13,4 +13,9 @@ public abstract class Document {
 		this.titre = titre; 
 		numEnreg = nbrPlus();
 	}
+	
+	public String toString(){
+		return 
+	}
 }
+

@@ -1,7 +1,7 @@
 package model;
 
 // TO DO ...
-public class Livre implement Document{
+public class Livre extends Document{
 
 	private String auteur;
 	private int nbPages;
@@ -11,4 +11,6 @@ public class Livre implement Document{
 		this.auteur=auteur;
 		this.nbPages=nbPages;
 	}
+	
+	public String auteur
 }
