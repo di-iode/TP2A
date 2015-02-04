@@ -15,7 +15,7 @@ public abstract class Document {
 	}
 	
 	public String toString(){
-		return "\t"+this.titre+"" 
+		return "\t"+this.titre+" est le””";
 	}
 }
 
