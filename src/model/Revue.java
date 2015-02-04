@@ -6,5 +6,7 @@ public class Revue {
 	private int mois;
 	private int annee;
 	
+	public Revue
+	
 	
 }

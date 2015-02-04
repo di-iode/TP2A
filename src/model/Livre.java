@@ -16,4 +16,18 @@ public class Livre extends Document{
 	public String toString(){
 		return super.toString() + " c'est un livre de " + this.auteur + " de "+ this.nbPages+" page";
 	}
+	public void setAuteur(String auteur) {
+		this.auteur = auteur;
+	}
+	public void setNbPages(int nbPages) {
+		this.nbPages = nbPages;
+	}
+	
+	public String getAuteur() {
+		return auteur;
+	}
+	public int getNbPages() {
+		return nbPages;
+	}
+	
 }
