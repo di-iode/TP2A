@@ -13,7 +13,7 @@ public class Livre extends Document{
 	}
 	
 	@Override
-	public string toString(){
-		return super() + " c'est un livre de " + Livre.auteur + " de "+ Livre.nbPages+" page"
+	public String toString(){
+		return super.toString() + " c'est un livre de " + this.auteur + " de "+ this.nbPages+" page";
 	}
 }
